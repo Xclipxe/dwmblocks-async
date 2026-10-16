@@ -18,11 +18,10 @@
 
 // Define blocks for the status feed as X(icon, cmd, interval, signal).
 #define BLOCKS(X)             \
-    X("", "echo \"xpx's fucking status bar!\"", 600, 1)  \
     X("", "mem_usage.sh", 1, 4) \
     X("", "cpu_usage.sh", 1, 3) \
     X("", "battery_info.sh", 60, 2) \
     X("", "cpu_temp.sh", 1, 11) \
-    X("󰥔 ", "print_time.sh", 1, 10)
+    X("", "print_time.sh", 1, 10)
 
 #endif  // CONFIG_H
